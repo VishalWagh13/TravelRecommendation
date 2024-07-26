@@ -1,0 +1,176 @@
+/* Navbar styling for About Us page */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* About Us and Team section styling */
+.about-us {
+    margin-top: 30px ;
+    margin-left: 0px ;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    text-align: center;
+    color:black        ;
+}
+
+.team {
+    padding: 20px;
+    /* background-color: #fff; */
+    text-align: center;
+    color: black;
+}
+
+.team-member {
+    margin: 20px 0;
+}
+
+.team-member h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.team-member p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+.hero {
+    position: relative;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    height: 100vh;
+    color: white;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 340px;
+    text-shadow: 1px 1px black;
+}
+
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  /* Basic CSS for the form elements */
+  body {
+    font-family: Arial, sans-serif;
+    /* margin: 20px; */
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  div {
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+
+  button {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  /* Basic CSS for the report section */
+  h2 {
+    margin-top: 30px;
+  }
+
+  #report,#result {
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+  }
+#result{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  #result img{
+    width: 200px;
+    height: 100px;
+  }
